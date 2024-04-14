@@ -11,7 +11,7 @@ android {
         applicationId = "tw.idv.woofdog.easycashaccount"
         minSdk = 29
         targetSdk = 34
-        versionCode = 21
+        versionCode = 22
         versionName = "2.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
