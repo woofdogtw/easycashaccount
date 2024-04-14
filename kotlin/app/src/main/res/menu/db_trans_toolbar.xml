@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/transAddButton"
+        android:contentDescription="@string/tooltipTransCreate"
+        android:icon="@drawable/add"
+        android:title="@string/mCreate"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <!--
+    <item
+        android:id="@+id/transRangeButton"
+        android:contentDescription="@string/tooltipTransRange"
+        android:icon="@drawable/date_range"
+        android:title="@string/mTransRange"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+    -->
+
+    <item
+        android:id="@+id/transFindButton"
+        android:contentDescription="@string/tooltipTransFind"
+        android:icon="@drawable/search"
+        android:title="@string/mTransFind"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/transSyncButton"
+        android:contentDescription="@string/tooltipTransSync"
+        android:icon="@drawable/sync"
+        android:title="@string/mTransSync"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/transStButton"
+        android:contentDescription="@string/tooltipTransSt"
+        android:icon="@drawable/analytics"
+        android:title="@string/mTransSt"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always">
+        <menu android:id="@+id/transStMenu">
+            <item
+                android:id="@+id/transStBudgetButton"
+                android:contentDescription="@string/tooltipTransStBudget"
+                android:title="@string/mTransStBudget"
+                app:iconTint="?attr/colorOnSurface" />
+
+            <item
+                android:id="@+id/transStGrandTotalButton"
+                android:contentDescription="@string/tooltipTransStGrandTotal"
+                android:title="@string/mTransStGrandTotal"
+                app:iconTint="?attr/colorOnSurface" />
+
+            <item
+                android:id="@+id/transStPercentButton"
+                android:contentDescription="@string/tooltipTransStPercentage"
+                android:title="@string/mTransStPercentage"
+                app:iconTint="?attr/colorOnSurface" />
+        </menu>
+    </item>
+
+    <!--
+    <item
+        android:id="@+id/transImportButton"
+        android:contentDescription="@string/tooltipTransImport"
+        android:icon="@drawable/file_open"
+        android:title="@string/mTransImport"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/transSaveAsButton"
+        android:contentDescription="@string/tooltipTransSaveAs"
+        android:icon="@drawable/save_as"
+        android:title="@string/mTransSaveAs"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/transExportCsvButton"
+        android:contentDescription="@string/tooltipTransExportCsv"
+        android:icon="@drawable/csv"
+        android:title="@string/mTransExportCsv"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="never" />
+    -->
+</menu>

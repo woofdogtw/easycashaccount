@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dTransDate" />
+
+        <DatePicker
+            android:id="@+id/transDatePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            tools:ignore="UnusedAttribute" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="2"
+                android:text="@string/dTransType" />
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/dTransInExp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Spinner
+                android:id="@+id/transTypeSpinner"
+                android:layout_weight="2" />
+
+            <Spinner
+                android:id="@+id/transInExpSpinner"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dTransMoney" />
+
+        <EditText
+            android:id="@+id/transMoneyEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dTransMoney"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dTransDescript" />
+
+        <EditText
+            android:id="@+id/transDescriptEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dTransDescript"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dTransLocation" />
+
+        <EditText
+            android:id="@+id/transLocationEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dTransLocation"
+            android:inputType="text" />
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,60 @@
+﻿EasyCashAccount Droid is an accounting software on the Android platform.
+
+
+EasyCashAccount Droid is an accounting software on the Android platform.
+In addition to across different platforms, it also helps you to backup data in several popular network spaces.
+
+- FTP, Microsoft OneDrive online synchronization mechanism.
+- Using pen drive or file copy to backup and restore files.
+- Simple search facility.
+- We also provides dedicated Windows desktop and Windows Store App programs (visit website).
+
+This program does not support CSV exporting. You can
+(1) Visit the website (https://easy-cash-account.firebaseapp.com) and download Windows desktop version or
+(2) Visit Windows Store or Windows Phone Store and download EasyCashAccount RT
+to get full functions.
+
+
+https://easy-cash-account.firebaseapp.com/index.html
+woofdogtw@gmail.com
+https://easy-cash-account.firebaseapp.com/eca-android-privacy-en-us.html
+
+
+v2.0.0
+- Fix Microsoft OneDrive synchronization.
+- Add local backup/restore.
+- Modify user interface to close the experience of the Windows 10 App.
+- Only supports Android 10 or above.
+- Google Drive sync needs to be fixed.
+v1.2.17
+- Fix a bug of grand total.
+v1.2.16
+- Fix a bug that does not display grand total.
+v1.2.15
+- Fix a bug of synchronization.
+v1.2.14
+- Refactor network synchronization architecture.
+- Modify user interface to close the experience of the Windows 10 App.
+- Add budget and percentage analysis.
+v1.2.13
+- Fix date picker style of find function.
+v1.2.12
+- Update date picker style.
+- Fix the bug of restarting app after rotating.
+v1.2.11
+- Support phones and tablets without the physical menu key.
+v1.2.10
+- Upgrade OneDrive synchronization.
+- Ignore case of the Find facility.
+v1.2.9
+- Fix the bug of invalid file name.
+v1.2.8
+- Fix the bug that the program can not be used after A.D. 2037.
+v1.2.7
+- Fix OneDrive synchronization.
+v1.2.6
+- Add income/expense/budget data for the grand total function.
+v1.2.5
+- Update core library.
+- Order transactions by date.
+- Add find function to search transactions.

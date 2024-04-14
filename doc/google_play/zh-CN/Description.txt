@@ -1,0 +1,60 @@
+﻿简易记账本Droid是Android平台上的记账软件。
+除了横跨不同平台，也可以协助您备份数据至不同的网络空间。
+
+
+简易记账本Droid是Android平台上的记账软件。
+除了横跨不同平台，也可以协助您备份数据至不同的网络空间。
+
+- 提供FTP、Microsoft OneDrive的网络同步机制。
+- 可利用U盘或文件复制的方式进行文件的备份和还原。
+- 简易的搜寻功能。
+- 另外也提供Windows桌面专用和Windows Store App专用的程序（造访网站）。
+
+本程序不支援CSV汇出功能。完整功能取得方式如下：
+(1) 请至网站（https://easy-cash-account.firebaseapp.com）下载Windows桌面版，或是
+(2) 造访Windows Store或Windows Phone Store下载简易记账本RT。
+
+
+https://easy-cash-account.firebaseapp.com/index.html
+woofdogtw@gmail.com
+https://easy-cash-account.firebaseapp.com/eca-android-privacy-en-us.html
+
+
+v2.0.0
+- 修正Microsoft OneDrive同步功能。
+- 新增本机备份与还原功能。
+- 修改界面，提供与Windows 10 App相近的体验。
+- 仅支持Android 10或以上。
+- Google Drive同步尚待修正。
+v1.2.17
+- 修正收支总和的错误。
+v1.2.16
+- 修正收支总和不显示加总结果的错误。
+v1.2.15
+- 修正网路同步错误。
+v1.2.14
+- 修改网路同步架构。
+- 修改界面，提供与Windows 10 App相近的体验。
+- 新增预算、百分比分析。
+v1.2.13
+- 修正搜寻功能的日期选择样式。
+v1.2.12
+- 更新日期选择样式。
+- 解决屏幕旋转时重新启动的问题。
+v1.2.11
+- 支持无实体选单键的手机和平板。
+v1.2.10
+- 升级OneDrive同步机制。
+- 搜寻功能忽略大小写检查。
+v1.2.9
+- 修正非法文件名的错误。
+v1.2.8
+- 修正公元2037年以後无法使用的错误。
+v1.2.7
+- 解决OneDrive同步错误。
+v1.2.6
+- 在总和功能中加入「收入、支出、预算」数据。
+v1.2.5
+- 更新核心组件。
+- 依日期排序。
+- 新增搜寻功能。
